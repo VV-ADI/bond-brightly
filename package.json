@@ -1,0 +1,14 @@
+{
+  "name": "bond-brightly",
+  "version": "1.0.0",
+  "description": "Bond Brightly - Build deeper connections through daily questions",
+  "type": "module",
+  "scripts": {
+    "install:all": "cd client && npm install && cd ../server && npm install",
+    "dev:server": "cd server && node --watch index.js",
+    "dev:client": "cd client && npx vite",
+    "dev": "echo \"Run 'npm run dev:server' in one terminal and 'npm run dev:client' in another\"",
+    "build": "cd client && npx vite build"
+  },
+  "license": "MIT"
+}
